@@ -5,7 +5,9 @@
 
     <!-- link to your script file here -->
     <script src="fancifymytext.js"></script> 
+    <!--For the navigation bar at the top-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
@@ -19,17 +21,25 @@
     <h1>Fancify my Text</h1>
     <!-- Your UI controls go here -->
     <fieldset> 
-      <label for="userText">Text</label>
-      <textarea id="userText" name="textForm" cols="30" rows="4"> </textarea>
+      <legend>Text</legend>
+      <textarea id="userText" name="textForm" cols="30" rows="4"></textarea>
     </fieldset>
 
     <fieldset>
-      <label>Fancify</label>
-      <button type="button" name="Bigger">Bigger</button>
+      <legend>Fancify</legend>
+      <button type="button" name="Bigger" id="bigbutton">Bigger</button>
       <input type="radio" id="fancyRadio" name="fancyButton">
       <label for="fancyRadio">FancyShmancy</label>
       <input type="radio" id="boringRadio" name="boringButton">
       <label for="boringRadio">BoringBetty</label>
+      <button type="button" name="Moo" id="upperCase">Moo</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Extras</legend>
+      <button type="button" name="changer" id="changeButton">Add Size</button>
+      <input type="number" name="inputNum" id="biggerNum" value="2">
+      <button type="button" name="radioReset" id="radRes">Reset Radios</button>
     </fieldset>
 
   </body>
