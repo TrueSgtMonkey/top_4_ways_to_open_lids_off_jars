@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fancify Shamcify</title>
+
+    <!-- link to your script file here -->
+    <script src="fancifymytext.js"></script> 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+
+  <body>
+    <div id="navigation"></div>
+    <script>
+      $(function() 
+      {
+          $("#navigation").load("navigation.html");
+      });
+    </script>
+    <h1>Fancify my Text</h1>
+    <!-- Your UI controls go here -->
+    <fieldset> 
+      <label for="userText">Text</label>
+      <textarea id="userText" name="textForm" cols="30" rows="4"> </textarea>
+    </fieldset>
+
+    <fieldset>
+      <label>Fancify</label>
+      <button type="button" name="Bigger">Bigger</button>
+      <input type="radio" id="fancyRadio" name="fancyButton">
+      <label for="fancyRadio">FancyShmancy</label>
+      <input type="radio" id="boringRadio" name="boringButton">
+      <label for="boringRadio">BoringBetty</label>
+    </fieldset>
+
+  </body>
+</html>

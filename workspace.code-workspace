@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "D:\\cody_stuff\\sac_state\\2021_spring\\csc190\\bootstrap_practice\\bootstrap_practice\\bootstrap\\00_basic"
+		},
+		{
+			"path": "D:\\cody_stuff\\sac_state\\2021_spring\\csc190\\bootstrap_practice\\bootstrap_practice\\bootstrap\\01_sandbox\\bootstrap_sandbox_starter"
+		},
+		{
+			"path": "D:\\cody_stuff\\sac_state\\2021_spring\\csc190\\bootstrap_practice\\bootstrap_practice\\bootstrap\\02_html_basics"
+		},
+		{
+			"path": "D:\\cody_stuff\\sac_state\\2021_spring\\csc190\\bootstrap_practice\\bootstrap_practice\\bootstrap\\03_page"
+		},
+		{
+			"path": "D:\\cody_stuff\\sac_state\\2021_spring\\csc190\\project"
+		},
+		{
+			"path": "C:\\Users\\codyt\\Desktop\\cody_stuff\\00_SAC_STATE_FOLDER\\FALL_2021\\CSC196W\\04_week"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "github_site",
+		"liveServer.settings.port": 5501
+	}
+}
